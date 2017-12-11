@@ -1,16 +1,16 @@
 {
-  "name": "eslint-plugin-ensure-boolean-in-jsx-conditional",
+  "name": "eslint-plugin-jsx-conditionals",
   "version": "1.0.0",
   "description": "Ensuring variables are cast to booleans whenever using `&&` conditionals in JSX to avoid unwanted side effects",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/julianburr/eslint-plugin-ensure-boolean-in-jsx-conditional.git"
+    "url": "git+https://github.com/julianburr/eslint-plugin-jsx-conditionals.git"
   },
   "author": "Julian Burr <hello@julianburr.de>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/julianburr/eslint-plugin-ensure-boolean-in-jsx-conditional/issues"
+    "url": "https://github.com/julianburr/eslint-plugin-jsx-conditionals/issues"
   },
   "homepage": "https://github.com/julianburr/eslint-plugin-ensure-boolean-in-jsx-conditional#readme",
   "devDependencies": {

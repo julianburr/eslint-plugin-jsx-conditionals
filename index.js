@@ -1,5 +1,5 @@
-const ensureBooleanInJsxConditionals = require('./rules/ensure-boolean-in-jsx-conditionals');
+const ensureBooleans = require('./rules/ensure-booleans');
 
 module.exports.rules = {
-  'ensure-boolean-in-jsx-conditionals': ensureBooleanInJsxConditionals
+  'ensure-booleans': ensureBooleans
 };

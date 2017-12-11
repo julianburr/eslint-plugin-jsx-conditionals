@@ -1,4 +1,4 @@
-# eslint-plugin-ensure-boolean-in-jsx-conditional
+# eslint-plugin-jsx-conditionals
 
 Ensuring variables used in JSX conditionals are cast to booleans whenever using `&&` to avoid unwanted side effects, e.g. for other falsey values like empty strings etc.
 
@@ -30,8 +30,11 @@ In your `.eslintrc` config:
 ```json
 {
   "plugins": [
-    "ensure-boolean-in-jsx-conditional"
-  ]
+    "eslint-plugin-jsx-conditionals"
+  ],
+  "rules": {
+    "eslint-plugin-jsx-conditionals/ensure-booleans": "error"
+  }
 }
 ```
 
@@ -39,8 +42,8 @@ In your `.eslintrc` config:
 ## Development
 
 ```bash
-git clone git@github.com:julianburr/eslint-plugin-ensure-boolean-in-jsx-conditional.git
-cd eslint-plugin-ensure-boolean-in-jsx-conditional
+git clone git@github.com:julianburr/eslint-plugin-jsx-conditionals.git
+cd eslint-plugin-jsx-conditionals
 yarn
 
 # Run tests
