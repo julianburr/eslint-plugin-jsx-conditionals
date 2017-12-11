@@ -29,11 +29,9 @@ yarn add eslint-plugin-jsx-conditionals --dev
 In your `.eslintrc` config:
 ```json
 {
-  "plugins": [
-    "eslint-plugin-jsx-conditionals"
-  ],
+  "plugins": [ "jsx-conditionals" ],
   "rules": {
-    "eslint-plugin-jsx-conditionals/ensure-booleans": "error"
+    "jsx-conditionals/ensure-booleans": "error"
   }
 }
 ```
