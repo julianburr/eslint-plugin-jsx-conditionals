@@ -23,7 +23,7 @@ const Component = ({ check }) => (
 ## Usage
 
 ```bash
-yarn add eslint-plugin-ensure-boolean-in-jsx-conditional --dev
+yarn add eslint-plugin-jsx-conditionals --dev
 ```
 
 In your `.eslintrc` config:
