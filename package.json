@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/julianburr/eslint-plugin-ensure-boolean-in-jsx-conditional#readme",
   "devDependencies": {
-    "eslint": "^4.13.0",
+    "eslint": "^5.10.0",
     "mocha": "^4.0.1"
   },
   "scripts": {

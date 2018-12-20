@@ -1,8 +1,8 @@
 const rule = require('../rules/ensure-booleans');
-const RuleTester = require('eslint').RuleTester;
+const RuleTester = require('eslint/lib/testers/rule-tester.js');
 const ruleTester = new RuleTester();
 
-ruleTester.run('Ensure Boolean in JSX Conditionals', rule, {
+ruleTester.run('Ensure Booleans in JSX Conditionals', rule, {
   valid: [
     {
       code: `const Component = ({check}) => (<div>{!check && <p>Check</p>}</div>)`,
