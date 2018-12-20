@@ -1,4 +1,4 @@
-const rule = require('../rules/ensure-boolean-in-jsx-conditionals');
+const rule = require('../rules/ensure-booleans');
 const RuleTester = require('eslint').RuleTester;
 const ruleTester = new RuleTester();
 
